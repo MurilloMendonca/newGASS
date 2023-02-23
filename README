@@ -1,9 +1,14 @@
 # Build: 
+Build it with:
 ```
-g++ newGASS-base/Individuo.cpp newGASS-base/GA.cpp newGASS-base/newGASS.cpp compatGASS.cpp -pthread -O3
+make
 ```
 
+And you can clear the .o files with:
+```
+make clean
+```
 # Run
 ```
-./a.out <path_to_target_file> <path_to_template_folder>
+./compatGASS <path_to_target_file> <path_to_template_folder>
 ```
