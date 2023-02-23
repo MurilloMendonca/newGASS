@@ -1,0 +1,9 @@
+# Build: 
+```
+g++ newGASS-base/Individuo.cpp newGASS-base/GA.cpp newGASS-base/newGASS.cpp compatGASS.cpp -pthread -O3
+```
+
+# Run
+```
+./a.out <path_to_target_file> <path_to_template_folder>
+```

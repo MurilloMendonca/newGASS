@@ -1,0 +1,9 @@
+a.out
+populacao.txt
+output/*
+*.o
+*.txt
+*.csv
+*.callgrind
+dump
+multiGASS.cpp
